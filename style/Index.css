@@ -1,0 +1,1157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+
+.logo img {
+  max-width: 175px;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li a:hover {
+  font-weight: 500;
+}
+
+.nav_contact-info {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; 
+}
+
+.element {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px; 
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+}
+
+.responsive-img {
+  max-width: 100%;
+  height: auto; 
+}
+
+.salon-name {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.salon-subtitle {
+  font-size: 38px;
+  font-weight: 400;
+  margin: 0px; 
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 60px 0 80px 0; 
+}
+
+.btn-apply {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  padding: 13px 70px;
+  background-color: #FFDB8D;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.btn-apply-link{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-apply a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-apply:hover {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid black;
+} 
+
+.aboutUs_element {
+  display: flex;
+  margin-top: 60px;
+}
+
+.about-services-text{
+  width: 50%;
+}
+.about-services-image{
+  width: 50%;
+}
+
+.aboutUs_left-section img {
+  height: 100%;
+}
+
+.aboutUs_right-section {
+  flex: 1;
+  padding-left: 70px;
+}
+
+.aboutUs_photos-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs_photos-row img {
+  width: calc(33.3333% - 30px);
+  height: auto;
+}
+
+.aboutUs_right-section h1 {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.aboutUs_sub-text {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.aboutUs_Offers {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+ul {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+ul li {
+  margin-top: 10px;
+}
+
+.aboutUs_additional-text {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.aboutUs_order-text {
+  margin-top: 50px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.aboutUs_order-text a{
+text-decoration: none;
+color: inherit;
+}
+
+.quote {
+  background-color: #E5EEFF;
+  height: 147px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.quote p {
+  font-size: 23px;
+  width: 770px;
+  font-weight: 400;
+  line-height: 30px;
+
+  margin: 30px 0 0 0;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0 60px 0;
+}
+
+.photo-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.photo-item img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.photo-item p {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.services{
+  background-color: #d9d9d949;
+  
+  padding-bottom: 40px;
+}
+
+.offers-title{
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.offers-title h1{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.services-title {
+  text-align: start;
+  padding-left: 150px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.services-title h1 {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.service-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.service-item a{
+text-decoration: none;
+color: inherit;
+}
+
+.service-item a:hover{
+  .service-title{
+  background-color:#000000;
+  color: white;
+}
+text-decoration: none;
+  }
+
+.service-item img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-title {
+  width: 250px;
+  background-color: #fff;
+  padding: 10px 0;
+  border-radius: 0 0 8px 8px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.services-info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.services-info p {
+  width: 70%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.services-info button {
+  margin-left: 35px;
+}
+
+.services_btn-apply {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  padding: 8px 50px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+.services_btn-apply:hover {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+}
+
+.products_title{
+  margin: 40px 0 30px 150px;
+}
+
+.products_title h1{
+  font-size: 45px;
+  font-weight: 300;
+
+  margin: 0;
+}
+
+.products_title p{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 30px;
+}
+
+.product-item {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.product-item a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-item a:hover{
+  text-decoration: none;
+  }
+
+.product-item a:hover img{
+    opacity: .4;
+  }
+
+.product-item a:hover .product-name{
+    font-weight: 500;
+   color: #000;
+  }
+
+
+.product-item img {
+  width: 171px;
+  height: 194px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.product-info {
+  padding: 5px;
+  
+  height: 60px;
+}
+
+.product-name {
+  font-weight: 400;
+  font-size: 14px;
+
+  margin-bottom: 15px;
+
+  max-width: 160px;
+  height: 55%;
+}
+
+.product-price {
+  color: #444444;
+
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.test{
+  color: #444444;
+
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.btn-element{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 50px;
+
+}
+
+.products_btn-apply{
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  padding: 8px 50px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+      
+}
+
+.products_btn-apply:hover {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid black;
+}
+
+.masters{
+  background-color: #E5EEFF;
+  
+}
+
+.masters_title{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 30px 0 20px 0;
+}
+
+.masters_title h1{
+  font-size: 40px;
+  font-weight: 300;
+
+  margin: 0;
+}
+
+.masters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-bottom: 30px;
+}
+
+.person {
+  margin: 15px;
+  width: 350px;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+
+.photo img {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 10px;
+  font-weight: bold;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.position {
+  margin-top: 5px;
+  color: #666;
+
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.master_logo img {
+  width: 51px;
+  height: 51px;
+
+}
+
+
+.description {
+  text-align: left;
+  margin-top: 10px;
+
+  
+}
+
+.description ul {
+  padding-left: 20px;
+  margin: 0;
+
+  font-size: 13px;
+}
+
+.description p {
+  font-size: 13px;
+  font-weight: 500;
+  
+}
+
+.masters_btn-element{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+
+.contact-info {
+  width: 45%;
+  text-align: left;
+
+  margin-top: 40px;
+}
+
+.contact-info h2 {
+  margin: 0 0 30px 0;
+
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.contact-info p {
+  margin: 0 0 8px 0;
+
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 0 40px;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+
+  margin-right: 30px;
+}
+
+.map {
+  width: 100%;
+  max-width: 600px; 
+  height: 200px; 
+}
+
+.reset{
+  display: none;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Медіа-запит для планшетів (до 768px) */
+@media (max-width: 768px) {
+  .navigation{
+    display: none;
+  }
+
+  .element {
+    flex-direction: column; 
+  }
+  
+  .right-section {
+    display: none;
+  }
+
+  .left-section {
+    flex: 0; 
+    padding: 0; 
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .salon-name {
+    font-size: 26px; 
+  }
+
+  .slogan {
+    font-size: 14px; 
+    margin-bottom: 40px; 
+    text-align: center;
+
+    max-width: 500px;
+    
+  }
+
+  .btn-apply {
+    font-size: 12px; 
+    padding: 8px 40px; 
+  }
+
+  .aboutUs_element {
+    flex-direction: column;
+}
+
+.aboutUs_left-section img {
+    display: none;
+}
+
+.aboutUs_right-section {
+    padding-left: 0;
+}
+
+.aboutUs_photos-row {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.aboutUs_photos-row img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.aboutUs_right-section h1 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.aboutUs_sub-text {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.aboutUs_Offers {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.aboutUs_additional-text {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.aboutUs_order-text {
+    margin-top: 30px;
+}
+
+.quote {
+  height: auto;
+  padding: 20px;
+}
+
+.quote p {
+  font-size: 20px;
+  width: 100%;
+
+  margin: 0 0 0 0; 
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  margin-bottom: 20px;
+}
+.photo-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 7px;
+}
+
+.photo-item img {
+  max-width: 90px;
+  height: auto;
+}
+
+.photo-item p {
+  margin-left: 10px;
+}
+
+.services-title {
+  text-align: center;
+  padding-left: 0;
+}
+
+.services-info {
+  flex-direction: column;
+  align-items: center; 
+  margin-left: 0;
+  text-align: center; 
+}
+
+.services-info p {
+  width: 100%;
+}
+
+.services-info button {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.products_title {
+  text-align: center;
+  margin: 30px 0;
+  padding-left: 0;
+}
+
+.product-container {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  margin: 10px;
+}
+
+.product-info {
+  height: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-name {
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  margin-bottom: 5px;
+}
+
+.btn-element {
+  margin-bottom: 30px;
+}
+
+.products_btn-apply {
+  padding: 8px 40px;
+}
+
+.masters_title {
+  text-align: center;
+  padding-left: 0;
+}
+
+.masters_title h1 {
+  font-size: 30px;
+}
+
+.masters-list {
+  padding-bottom: 20px;
+}
+
+.person {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.person .photo img {
+  width: 80px;
+  height: 80px;
+}
+
+.person .name,
+.person .position {
+  font-size: 18px;
+}
+
+.description ul {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.masters_btn-element {
+  text-align: center;
+}
+
+.contact-container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+
+  margin-bottom: 0;
+}
+
+.contact-info {
+  width: 100%;
+  text-align: center;
+
+  margin-top: 10px;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+}
+
+.icons {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons img {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.map{
+  display:none;
+}
+
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* Медіа-запит для мобільних телефонів (до 480px) */
+@media (max-width: 480px) {
+  .main-page .container{
+    padding: 0;
+  }
+  
+  .header{
+    justify-content: center;
+  }
+
+  .navigation{
+    display: none;
+  }
+
+  .nav_contact-info{
+    display: none;
+  }
+
+  .element{
+    margin: 0;
+    background-image:  url(../img/Main/111.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    height: 100vh;
+  }
+
+  .left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+    margin-top: 120px;
+    
+  }
+
+  .salon-name {
+    font-size: 22px;
+    font-weight: 600; 
+    padding-right: 80px;
+  }
+
+  .salon-subtitle {
+    font-size: 22px; 
+    font-weight: 400; 
+    margin-bottom: 15px; 
+    padding-right: 80px;
+  }
+
+  .slogan {
+    font-size: 23px; 
+    margin: 70px 0 ; 
+    text-align: center;
+    
+  }
+
+  .responsive-img{
+    display: none;
+  }
+
+  .btn-apply {
+    font-size: 18px;
+    background-color: #aaaaaa31;
+    border: 1px solid  black;
+    padding: 12px 60px; 
+
+    margin: 100px 0;
+  }
+
+  .aboutUs_left-section, .aboutUs_photos-row{
+    display: none;
+  }
+
+
+  .right-section {
+    margin-top: 15px; 
+  }
+
+  .aboutUs_element {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.aboutUs_right-section {
+    padding-left: 0;
+    
+}
+
+.aboutUs_right-section h1 {
+    font-size: 20px;
+}
+
+.aboutUs_sub-text {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.aboutUs_Offers {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.aboutUs_additional-text {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.aboutUs_order-text {
+    margin-top: 30px;
+}
+
+.quote p {
+  font-size: 18px;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.photo-item img {
+  max-width: 60px;
+  height: auto;
+}
+
+.photo-item p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 12px 0 0 5px;
+}
+
+.service-item {
+  margin: 10px;
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+}
+
+.service-title {
+  width: 100%;
+}
+
+.services-info{
+  width: 100%;
+}
+
+.services-info p {
+  width: 100%;
+
+}
+
+.services_btn-apply {
+  margin-left: 0;
+}
+
+.product-item {
+  margin: 5px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-info {
+  margin-top: 5px;
+}
+
+.product-name {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.product-price {
+  font-size: 18px;
+}
+
+.products_btn-apply {
+  font-size: 15px;
+  padding: 8px 30px;
+}
+
+.masters_title h1 {
+  font-size: 24px;
+}
+
+.masters-list {
+  padding-bottom: 10px;
+}
+
+.description ul {
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.products_btn-apply {
+  font-size: 15px;
+  padding: 6px 30px;
+}
+
+.contact-container{
+  margin-bottom: 0px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+}
+
+.contact-info p {
+  font-size: 15px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.map {
+  display: none;
+}
+
+
+.reset{
+  display: block;
+
+}
+
+.product-container{
+  display: none;
+}
+}
+
+  /* ANIMATION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+  .ICO {
+    position: relative;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ICO:hover {
+    transform: translateY(-10px); 
+  }

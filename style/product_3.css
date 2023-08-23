@@ -1,0 +1,146 @@
+.product-info p{
+  line-height: 25px;
+}
+
+.description-page{
+  margin-top: 20px;
+}
+
+.example_page-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.left-content p{
+  line-height: 33px;
+}
+
+.right-content img{
+  max-height: 500px;
+}
+
+.description_example {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+
+.description_example-text {
+  max-width: 600px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.description_example-text h3{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.description_example-image img{
+  max-height: 250px;
+}
+
+
+.description_example-image-photo{
+  max-width: 353px;
+}
+
+@media (max-width: 768px) {
+  .product-info p{
+    max-width: 100%;
+
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+    text-align: left;
+  }
+
+  .description_example {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .example_page-title{
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+
+  .description_example-image, .description_example-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .description_example-image img{
+    max-height: 350px;
+  }
+
+  .description_example-text{
+    text-align: left;
+    max-width: 100%;
+  }
+
+  
+
+ .description_example-text h3{
+  margin: 0;
+  font-size: 19px;
+  }
+
+  .description_example-text p{
+    margin: 10px 0 18px 0; 
+  }
+
+  .indications_example{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+}
+
+@media screen and (max-width: 426px) {
+  .product-info p{
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+    text-align: left;
+  }
+
+  .left-content p{
+    line-height: 25px;
+  }
+
+  .description_example-text{
+    text-align: left;
+  }
+
+  .description_example-text p{
+    line-height: 25px;
+    font-weight: 400;
+
+    font-size: 15px;
+  }
+
+  .description_example-image img{
+    max-height: 200px;
+  }
+
+
+  }
+
+
+
+
+
+
+
+
+
